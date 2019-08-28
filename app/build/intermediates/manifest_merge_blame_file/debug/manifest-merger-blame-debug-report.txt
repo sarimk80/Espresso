@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.espresso"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->F:\Espresso\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->F:\Espresso\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:25:5-72
+11-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:25:22-69
+12
+13    <application
+13-->F:\Espresso\app\src\main\AndroidManifest.xml:5:5-19:19
+14        android:allowBackup="true"
+14-->F:\Espresso\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0-rc01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\40eb8755ade0378136ce88f57bc94c9b\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->F:\Espresso\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->F:\Espresso\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->F:\Espresso\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->F:\Espresso\app\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->F:\Espresso\app\src\main\AndroidManifest.xml:11:9-40
+23        <activity android:name="com.example.espresso.MainActivity" >
+23-->F:\Espresso\app\src\main\AndroidManifest.xml:12:9-18:20
+23-->F:\Espresso\app\src\main\AndroidManifest.xml:12:19-47
+24            <intent-filter>
+24-->F:\Espresso\app\src\main\AndroidManifest.xml:13:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->F:\Espresso\app\src\main\AndroidManifest.xml:14:17-69
+25-->F:\Espresso\app\src\main\AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->F:\Espresso\app\src\main\AndroidManifest.xml:16:17-77
+27-->F:\Espresso\app\src\main\AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:28:9-37:20
+31            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+31-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:29:13-96
+32            android:exported="true"
+32-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:30:13-36
+33            android:multiprocess="true"
+33-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:31:13-40
+34            android:taskAffinity=""
+34-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:32:13-36
+35            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+35-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:33:13-78
+36            <intent-filter>
+36-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:34:13-36:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->F:\Espresso\app\src\main\AndroidManifest.xml:14:17-69
+37-->F:\Espresso\app\src\main\AndroidManifest.xml:14:25-66
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:27:9-33:20
+41            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+41-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:28:13-99
+42            android:theme="@style/InstrumentationActivityInvokerBootstrapActivityTheme" >
+42-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:29:13-88
+43            <intent-filter>
+43-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:34:13-36:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->F:\Espresso\app\src\main\AndroidManifest.xml:14:17-69
+44-->F:\Espresso\app\src\main\AndroidManifest.xml:14:25-66
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:34:9-40:20
+48            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+48-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:35:13-95
+49            android:theme="@style/InstrumentationActivityInvokerEmptyActivityTheme" >
+49-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:36:13-84
+50            <intent-filter>
+50-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:34:13-36:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->F:\Espresso\app\src\main\AndroidManifest.xml:14:17-69
+51-->F:\Espresso\app\src\main\AndroidManifest.xml:14:25-66
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:41:9-47:20
+55            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+55-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:42:13-103
+56            android:theme="@style/InstrumentationActivityInvokerFloatingActivityTheme" >
+56-->[androidx.test:core:1.1.0] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\d4c3139c78a6d2a2766c268bf53a62c9\core-1.1.0\AndroidManifest.xml:43:13-87
+57            <intent-filter>
+57-->[androidx.fragment:fragment-testing:1.1.0-beta01] C:\Users\abbott\.gradle\caches\transforms-2\files-2.1\fd6530c4e65305d82130287eae50a46f\fragment-testing-1.1.0-beta01\AndroidManifest.xml:34:13-36:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->F:\Espresso\app\src\main\AndroidManifest.xml:14:17-69
+58-->F:\Espresso\app\src\main\AndroidManifest.xml:14:25-66
+59            </intent-filter>
+60        </activity>
+61    </application>
+62
+63</manifest>
